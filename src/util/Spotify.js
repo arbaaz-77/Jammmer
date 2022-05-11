@@ -1,5 +1,5 @@
 const clientId = process.env.REACT_APP_CLIENT_ID;
-const redirectUrl = "http://localhost:3000/";
+const redirectUrl = "http://www.arbaazsumar.com/";
 let accessToken;
 
 const Spotify = {
@@ -22,7 +22,7 @@ const Spotify = {
 
       return accessToken;
     } else {
-      const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public`;
+      const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUrl}`;
       window.location = accessUrl;
     }
   },
