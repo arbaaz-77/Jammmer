@@ -3,4 +3,3 @@ Search, create and save playlists direct to your Spotify account using Jammmer. 
 
 
 ## Try it out
-https://jammmer.vercel.app/
