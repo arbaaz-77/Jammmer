@@ -1,5 +1,5 @@
 const clientId = process.env.REACT_APP_CLIENT_ID;
-const redirectUrl = "http://www.arbaazsumar.com/";
+const redirectUrl = "https://jammmer.vercel.app/";
 let accessToken;
 
 const Spotify = {
